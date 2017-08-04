@@ -36,8 +36,8 @@ int main() {
     {
         cin>>a[i];
     }
-    bool flag = false; // giả sử trong mảng không có số ht nào 
-    // lớn hơn 256
+    bool flag = false; // gi? s? trong m?ng kh�ng c� s? ht n�o 
+    // l?n hon 256
     for(int i = 0 ; i < n ; i++)
     {
         if(ktSoHoanThienLonHon256(a[i])==true)
